@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio_Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .active {
+            background-color: teal;
+            color: white;
+            font-size: 25px;
+        }
+
+        .bodycontent {
+            background-color: gray;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: gray;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nametab {
+            margin-left: 5%;
+            background-color: teal;
+            color: white;
+        }
+
+        .rightnav {
+            float: right;
+        }
+
+        .fa {
+            padding: 10px;
+            font-size: 12px;
+            /* width: 12px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: rgb(22, 121, 196);
+            color: white;
+        }
+
+        .contact-heading {
+            font-size: 25px;
+            color: teal;
+            font-weight: bold;
+        }
+
+        .connect {
+            font-size: 20px;
+            color: teal;
+        }
+
+        .columnleft {
+            display: inline;
+        }
+
+        .columnright {
+            display: inline;
+        }
+
+        #afterheaderContact {
+            font-size: 30px;
+            color: teal;
+            clear: left;
+            margin-top: 100px;
+            margin-left: 20px;
+            padding-top: 15px;
+        }
+
+        hr {
+            border-top: 1px solid #ccc;
+
+        }
+
+        #footer-contentcontact {
+            background: gray;
+            text-align: center;
+            color: white;
+            height: 50px;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 0.5rem;
+            border-top-width: 5px;
+            border-top-style: solid;
+            border-top-color: teal;
+        }
+
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            width: 55%;
+            margin-left: 5%;
+            margin-right: 5%;
+            float: left;
+
+        }
+
+        .container-input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 3px;
+            margin-bottom: 8px;
+            resize: vertical;
+        }
+
+        .connectme {
+            float: left;
+            width: 20%;
+            margin-right: 5%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+
+        }
+
+        img {
+            float: left;
+            margin: 20px;
+        }
+
+        .maincontent {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+
+
+
+
+        /*small*/
+
+        .active {
+            background-color: teal;
+            color: white;
+            font-size: 25px;
+        }
+
+        body {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .bodycontent {
+            background-color: gray;
+            color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: inline-block;
+            color: gray;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .nametab {
+            margin-left: 5%;
+            background-color: teal;
+            color: white;
+        }
+
+        .rightnav {
+            float: right;
+
+        }
+
+        .fa {
+            padding: 10px;
+            font-size: 12px;
+            /* width: 12px; */
+            text-align: center;
+            text-decoration: none;
+            display: inline;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: rgb(22, 121, 196);
+            color: white;
+        }
+
+        .contact-heading {
+            font-size: 25px;
+            color: teal;
+            font-weight: bold;
+        }
+
+        .connect {
+            font-size: 20px;
+            color: teal;
+        }
+
+        hr {
+            border-top: 1px solid #ccc;
+
+        }
+
+        #footer-contentcontact {
+            background: gray;
+            text-align: center;
+            color: white;
+            height: 50px;
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            padding: 0.5rem;
+            border-top-width: 5px;
+            border-top-style: solid;
+            border-top-color: teal;
+
+        }
+
+        .headermenusmallcontact {
+            display: table;
+            /* centers modern browsers */
+            margin: 0 auto;
+            /* centers modern browsers */
+            background: white;
+        }
+
+        #headermenusmallcontact ul {
+            list-style: none;
+        }
+
+
+        #headermenusmallcontact li {
+            display: inline;
+        }
+
+        #headermenusmallcontact a {
+            float: left;
+            text-decoration: none;
+            padding: 0 5px;
+            /* variable width */
+        }
+
+        .connectmesmall {
+            float: left;
+            width: 20%;
+            margin-right: 5%;
+            margin-left: 5%;
+            width: 85%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 10px;
+            padding-bottom: 100px;
+        }
+
+        #profileimgindex {
+            float: left;
+            margin-left: 20px;
+            padding-right: 20px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        #abtmeconindex {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #mainindex {
+            background-color: white;
+            height: 350px;
+            margin-right: 5%;
+            margin-left: 5%;
+            width: 85%;
+        }
+
+        #afterheaderindex {
+            font-size: 30px;
+            color: teal;
+            clear: left;
+            /* margin-top: 100px;
+    margin-left: 20px; */
+            padding: 10px;
+        }
+
+
+
+        @media only screen and (max-width: 640px) {
+            #headerbig {
+                display: none;
+            }
+            #maincontentbig {
+                display: none;
+            }
+            #headersmall {
+                display: block;
+            }
+            #maincontentsmall {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width: 641px) and (max-width: 768px) {
+            #headerbig {
+                display: block;
+            }
+            #maincontentbig {
+                display: none;
+            }
+            #headersmall {
+                display: none;
+            }
+            #maincontentsmall {
+                display: block;
+            }
+        }
+
+        @media only screen and (min-width: 769px) and (max-width: 980px) {
+            #headerbig {
+                display: block;
+            }
+            #maincontentbig {
+                display: block;
+            }
+            #headersmall {
+                display: none;
+            }
+            #maincontentsmall {
+                display: none;
+            }
+        }
+
+        @media only screen and (min-width: 981px)  {
+            #headerbig {
+                display: block;
+            }
+            #maincontentbig {
+                display: block;
+            }
+            #headersmall {
+                display: none;
+            }
+            #maincontentsmall {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!--Creating Header-->
+    <div id="headerbig">
+        <header>
+            <ul>
+                <li class="nametab">
+                    <a class="active" href="#home">Aparajita</a>
+                </li>
+                <li class="rightnav blankspace">
+                    <a href="contactmediaquery.html">Contact</a>
+                </li>
+                <li class="rightnav">
+                    <a href="portfoliomediaquery.html">Portfolio</a>
+                </li>
+                <li class="rightnav">
+                    <a href="indexmediaquery.html">About</a>
+                </li>
+            </ul>
+        </header>
+    </div>
+    <br>
+    <!--Contact form-->
+
+    <div id="maincontentbig">
+        <div class="container">
+            <div class="contact-heading">Contact</div>
+            <hr>
+            
+            <form>
+                    
+                    <label for="name">Name</label>
+                    <input class="container-input" type="text" id="name" name="name" placeholder="John Smith">
+                
+                    <label for="email">Email</label>
+                    <input class="container-input"  type="text" id="email" name="email" placeholder="example@gmail.com">
+                
+                    <label for="message">Message</label>
+                    <textarea class="container-input"  id="message" name="message" style="height:150px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                  </form>
+
+
+        </div>
+        <!--Connect me-->
+        <div class="connectme">
+            <div class="connect">Connect with me</div>
+            <hr>
+            <br>
+            <div class="fa">
+                    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                    <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                    <a href="https://www.linkedin.com/in/aparajita-manicka/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- small about me -->
+
+
+    <div id="headersmall">
+        <!--Creating Header-->
+        <header style="background-color:teal">
+            <ul>
+                <li class="nametab">
+                    <a class="active" href="#home">Aparajita</a>
+                </li>
+            </ul>
+
+            <ul id="headermenusmallcontact" style="background-color:white; padding-top:10px;">
+                <li>
+                    <a href="indexmediaquery.html" style="color:black;">About Me</a>
+                </li>
+                <li>
+                    <a href="contactmediaquery.html" style="color:black;">Contact</a>
+                </li>
+                <li>
+                    <a href="portfoliomediaquery.html" style="color:black;">Portfolio</a>
+                </li>
+            </ul>
+        </header>
+
+    </div>
+
+    <br>
+    <!--Contact form-->
+
+    <div id="maincontentsmall">
+
+        <div id="mainindex">
+            <!-- About Me-->
+            <div id="afterheaderindex">Contact</div>
+            <!--Draw a line-->
+            <hr>
+            <form>
+                    
+                    <label for="name">Name</label>
+                    <input class="container-input" type="text" id="name" name="name" placeholder="John Smith">
+                
+                    <label for="email">Email</label>
+                    <input class="container-input"  type="text" id="email" name="email" placeholder="example@gmail.com">
+                
+                    <label for="message">Message</label>
+                    <textarea class="container-input"  id="message" name="message" style="height:150px"></textarea>
+                                
+                    <input type="submit" value="Submit">
+                  </form>
+
+        </div>
+
+        <br>
+        <br><br><br>
+        <!--Connect me-->
+        <div class="connectmesmall">
+            <div class="connect">Connect with me</div>
+            <hr>
+            <br>
+            <div class="fa">
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/aparajita-manicka/" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--Footer-->
+    <footer>
+        <div id="footer-contentcontact">
+            <p>@Copyright 2018 Aparajita</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
